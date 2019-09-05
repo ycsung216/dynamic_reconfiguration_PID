@@ -5,11 +5,12 @@ Parameters that can be reconfigurated dynamically are written in Python in confi
 Dynamical configuration server is implemented in the cpp file: src/server.cpp.
 
 Steps:
-1. run $ catkin_make
-Run Step 2~4 in respective terminals:
-2. $ roscore
-3. $ rosrun dynamic_conf_PID dynamic_reconfigure_node
-4. $ rosrun rqt_reconfigure rqt_reconfigure
+1. Download dynamic_conf_PID folder to your catkin workspace folder.
+2. run $ catkin_make
+Run Step 3~5 in respective terminals:
+3. $ roscore
+4. $ rosrun dynamic_conf_PID dynamic_reconfigure_node
+5. $ rosrun rqt_reconfigure rqt_reconfigure
 
 
-You should see a dynamic reconfiguration gui in the terminal that runs Step 4.
+You should see a dynamic reconfiguration gui in the terminal that runs Step 5.
