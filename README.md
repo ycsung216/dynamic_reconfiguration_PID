@@ -1,8 +1,8 @@
 # dynamic_reconfiguration_PID
 A ROS package implementing dynamical parameter reconfiguration. The parameters are Kp, Ki, and Kd for a PID controller.
 
-Parameters that can be reconfigurated dynamically are writeen in Python in config.cfg within cfg folder.
-Dynamical configuration server is implement in the cpp file: src/server.cpp.
+Parameters that can be reconfigurated dynamically are written in Python in config.cfg within cfg folder.
+Dynamical configuration server is implemented in the cpp file: src/server.cpp.
 
 Steps:
 1. run $ catkin_make
