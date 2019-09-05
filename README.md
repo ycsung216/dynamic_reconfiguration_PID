@@ -5,7 +5,7 @@ Parameters that can be reconfigurated dynamically are written in Python in confi
 Dynamical configuration server is implemented in the cpp file: src/server.cpp.
 
 Steps:
-1. Download dynamic_conf_PID folder to your catkin workspace folder.
+1. Download dynamic_conf_PID folder to your src folder under catkin workspace. In dynamic_conf_PID/cfg folder, run $ chmod a+x config.cfg.
 2. run $ catkin_make
 Run Step 3~5 in respective terminals:
 3. $ roscore
