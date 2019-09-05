@@ -10,4 +10,6 @@ Run Step 2~4 in respective terminals:
 2. $ roscore
 3. $ rosrun dynamic_conf_PID dynamic_reconfigure_node
 4. $ rosrun rqt_reconfigure rqt_reconfigure
+
+
 You should see a dynamic reconfiguration gui in the terminal that runs Step 4.
